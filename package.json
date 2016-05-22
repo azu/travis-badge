@@ -1,0 +1,37 @@
+{
+  "name": "travis-badge",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/azu/travis-badge.git"
+  },
+  "author": "azu",
+  "email": "azuciao@gmail.com",
+  "homepage": "https://github.com/azu/travis-badge",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/azu/travis-badge/issues"
+  },
+  "files": [
+    "bin/"
+  ],
+  "version": "1.0.0",
+  "description": "output travis badge from git/config",
+  "main": "bin/travis-badge.js",
+  "bin": {
+    "travis-badge": "bin/travis-badge.js"
+  },
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "git",
+    "github",
+    "travis"
+  ],
+  "dependencies": {
+    "github-slug": "^1.1.0"
+  }
+}
