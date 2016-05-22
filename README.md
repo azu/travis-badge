@@ -1,4 +1,4 @@
-# travis-badge
+# travis-badge [![Build Status](https://travis-ci.org/azu/travis-badge.svg?branch=master)](https://travis-ci.org/azu/travis-badge)
 
 output travis badge from git/config
 
@@ -6,11 +6,14 @@ output travis badge from git/config
 
 Install with [npm](https://www.npmjs.com/):
 
-    npm install travis-badge
+    npm install travis-badge -g
 
 ## Usage
 
-- [ ] Write usage instructions
+```
+$ travis-badge
+[![Build Status](https://travis-ci.org/azu/travis-badge.svg?branch=master)](https://travis-ci.org/azu/travis-badge)
+```
 
 ## Changelog
 
