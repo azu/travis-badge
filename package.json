@@ -14,7 +14,7 @@
   "files": [
     "bin/"
   ],
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "output travis badge from git/config",
   "main": "bin/travis-badge.js",
   "bin": {
